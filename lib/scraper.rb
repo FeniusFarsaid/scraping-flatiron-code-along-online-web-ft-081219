@@ -28,6 +28,7 @@ class Scraper
     # doc = Nokogiri::HTML(html)
     binding.pry 
   end 
+end 
   
   # def get_courses
   #   doc = Nokogiri::HTML(open("http://flatironschool.com/"))
