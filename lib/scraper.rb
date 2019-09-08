@@ -31,8 +31,7 @@ class Scraper
 end 
   
   def get_courses
-    doc = Nokogiri::HTML(open("http://flatironschool.com/"))
-    doc.css(<h2>Web Development Immersive</h2>)
+    self.get_page.css(".post")
   end 
   
 end
