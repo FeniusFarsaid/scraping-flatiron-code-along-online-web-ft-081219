@@ -26,7 +26,7 @@ class Scraper
       course.description = post.css("p").text
     # html = open("https://flatironschool.com/")
     # doc = Nokogiri::HTML(html)
-    binding.pry 
+    #binding.pry 
   end 
 end 
   
